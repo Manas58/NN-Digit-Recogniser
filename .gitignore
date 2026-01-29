@@ -1,0 +1,21 @@
+# Python
+venv/
+__pycache__/
+*.pyc
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data (never commit datasets)
+data/
+
+# Trained models
+models/*.npz
+
+# Generated outputs
+outputs/
+*.csv
+
+# OS junk
+*Zone.Identifier
+.DS_Store
